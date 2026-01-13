@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 /* theme.css */
 :root {
   --r-main-font-size: 36px;
   --r-heading-color: #e76f51; /* 주황색 톤 헤더 */
   --r-main-color: #f4a261;    /* 밝은 주황색 톤 텍스트 */
   --r-link-color: #e9c46a;     /* 노란색 톤 링크 */
+}
+
+.reveal {
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .reveal .slides section .fragment.highlight-red.visible {
